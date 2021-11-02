@@ -3,18 +3,24 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div> -->
-  <router-view/>
+  <transition name="slide-up">
+    <router-view/>
+  </transition>
 </template>
 
 <style lang="sass">
 html
   background: url('/../img/bg_logo_BW 1.png') center center no-repeat fixed
   background-color: #111827
-  background-size: auto
+  background-size: 860px, contain
   font-family: 'Montserrat', sans-serif
 #app
   text-align: center
   color: #2c3e50
+  background: radial-gradient(circle, #064E3B99, black 35%) no-repeat center fixed
+  min-height: 100vh
+  width: 100%
+  position: absolute
 #nav 
   padding: 30px
   a
