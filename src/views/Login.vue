@@ -71,9 +71,17 @@ export default {
 	width: 100%
 input[type=text], input[type=search]
 	outline: none
-.green-button
+.green-button, .red-button
 	border: 1px solid black
+.green-button, .red-button, .mini-button
 	transition: all .25s ease
+.green-button
 	&:hover
 		box-shadow: #047857 5px 6px 0
+.red-button
+	&:hover
+		box-shadow: #DC2626 5px 6px 0
+.mini-button
+	&:hover
+		box-shadow: #047857 2px 2px 4px
 </style>

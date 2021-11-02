@@ -3,7 +3,7 @@
   <div class="all-meets flex flex-col justify-around items-center gap-16">
       <div class="flex flex-col-reverse sm:flex-row justify-between items-center mx-auto w-5/6 md:w-2/3 xl:w-1/2 pt-16 gap-4">
         <h1 class="font-bold text-center sm:text-left text-4xl text-gray-300">Data Semua Rapat</h1>
-        <a href="/" class="main-button rounded px-12 py-2 text-gray-300 font-medium bg-gradient-to-b from-red-600 to-red-800">Keluar</a>
+        <a href="/" class="main-button red-button rounded px-12 py-2 text-gray-300 font-medium bg-gradient-to-b from-red-600 to-red-800">Keluar</a>
       </div>
       <div class="content w-5/6 md:w-2/3 xl:w-1/2">
         <div class="toolbar w-full flex justify-center sm:justify-between flex-row-reverse">
@@ -40,8 +40,8 @@
                 </div>
               </div>
               <div class="mc-bottom flex flex-row justify-end border-t border-green-900 pt-4 text-xs gap-4">
-                <a href="" class="rounded-lg py-1 px-4 border-green-900 text-green-500 border-2">Detail</a>
-                <a href="" class="rounded-lg py-1 px-4 bg-gradient-to-b from-green-600 to-green-900">Gabung</a>
+                <a href="/detail-rapat" class="mini-button rounded-lg py-1 px-4 border-green-900 text-green-500 border-2">Detail</a>
+                <a href="" class="mini-button rounded-lg py-1 px-4 bg-gradient-to-b from-green-600 to-green-900">Gabung</a>
               </div>
             </div>
           </transition-group>
